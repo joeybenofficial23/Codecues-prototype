@@ -1,0 +1,138 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFD54F;
+  }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFD54F; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 555px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+  h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-optical-sizing: auto; 
+    padding: 0px;
+    color: #333;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  #score-container {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  #score {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-optical-sizing: auto; 
+    font-style: bold;
+    color: #333;
+    font-size: 80px;
+    padding: 0px;
+    margin-top: -20px;
+  }
+  #question{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  .code-snippet {
+    background-color: #333;
+    color: #ffffff;
+    margin: auto;
+    padding: 0px;
+    margin-top: -60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    width:500px;
+    height: 300px;
+    align-items: center; /* Vertical center */
+  }
+  .buttons{
+    text-align: center;
+  }
+  button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: #ffffff;
+    transition: background-color 0.3s;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    align-items: center; /* Vertical center */
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  #restart {
+    display: none;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: -5px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+    font-size: 12px;
+    width: 150px;
+    
+  }
+  #message {
+    display: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: none;
+    font-weight: 500;
+    color: #333;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    width: 500px;
+  }
+  
+  .message{
+    text-align: center;
+    margin: auto;
+    width: 555px;
+  }
+  
+@media only screen and (min-width: 600px)
+{
+    .h1{
+        font-size: 0px;
+        color: beige;
+    }
+}
+    
