@@ -128,11 +128,53 @@ body {
     width: 555px;
   }
   
-@media only screen and (min-width: 600px)
-{
-    .h1{
-        font-size: 0px;
-        color: beige;
+  @media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-left: 50px;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
     }
+
+    #score {
+        font-size: 98px;
+        text-align: center;
+        margin-left: 50px; 
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+    }
+
+    #question {
+        font-size: 14px;
+        width: 310px;
+        height: 400px;
+    }
+
+    .code-snippet {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+      #message{
+          font-size: 28px;
+          max-width: 300px
+      }
+      
+    button {
+        font-size: 20px;
+        width: 120px;
+        height: 60px;
+        margin-left: 20px;
+        margin-top: 16px;
+        max-width: 300px;
+    }
+      #restart{
+          font-size: 20px;
+          width: 200px;
+          max-height: 300px;
+          margin-left: 30px;
+      }
 }
     
